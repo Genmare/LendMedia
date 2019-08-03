@@ -1,0 +1,15 @@
+page-book-list {
+    div {
+        padding-left: 5%
+    }
+    .is-lend {
+        div {
+            background-color: #eeeeee;
+        }
+    }
+    .is-not-lend {
+        div {
+            background-color: #fafafa;
+        }
+    }
+}
