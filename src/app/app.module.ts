@@ -1,3 +1,5 @@
+import { AuthPage } from './../pages/auth/auth';
+import { AuthService } from './../services/auth.service';
 import { SettingsPage } from './../pages/settings/settings';
 import { LendCdPage } from './../pages/lend-cd/lend-cd';
 import { LendBookPage } from './../pages/lend-book/lend-book';
@@ -21,7 +23,8 @@ import { BookListPage } from '../pages/book-list/book-list';
     LendBookPage,
     LendCdPage,
     SettingsPage,
-    TabsPage
+    TabsPage,
+    AuthPage
   ],
   imports: [
     BrowserModule,
@@ -35,13 +38,15 @@ import { BookListPage } from '../pages/book-list/book-list';
     LendBookPage,
     LendCdPage,
     SettingsPage,
-    TabsPage
+    TabsPage,
+    AuthPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    MediaService
+    MediaService,
+    AuthService
   ]
 })
 export class AppModule {}
