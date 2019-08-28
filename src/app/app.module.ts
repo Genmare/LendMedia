@@ -1,8 +1,8 @@
 import { AuthPage } from './../pages/auth/auth';
 import { AuthService } from './../services/auth.service';
 import { SettingsPage } from './../pages/settings/settings';
-import { LendCdPage } from './../pages/lend-cd/lend-cd';
-import { LendBookPage } from './../pages/lend-book/lend-book';
+import { LendCdPage } from '../pages/cd-list/lend-cd/lend-cd';
+import { LendBookPage } from '../pages/book-list/lend-book/lend-book';
 import { MediaService } from './../services/media.service';
 import { CdListPage } from './../pages/cd-list/cd-list';
 import { TabsPage } from './../pages/tabs/tabs';

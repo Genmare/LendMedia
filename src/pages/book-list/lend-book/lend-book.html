@@ -12,6 +12,14 @@
     <ion-card-header>{{ book.title }}</ion-card-header>
     <ion-card-content>
       <p *ngFor="let line of book.description">{{ line }}</p>
+      <form [formGroup]="nameForm">
+        <ion-list>
+          <ion-item>
+            <ion-label fixed >Emprunteur/Emprunteuse</ion-label>
+            <ion-input type="text" formControlName="name"></ion-input>
+          </ion-item>
+        </ion-list>
+      </form>
     </ion-card-content>
     <ion-grid>
       <ion-row>

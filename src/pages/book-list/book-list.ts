@@ -1,4 +1,4 @@
-import { LendBookPage } from './../lend-book/lend-book';
+import { LendBookPage } from './lend-book/lend-book';
 import { MediaService } from './../../services/media.service';
 import { Component } from '@angular/core';
 import { ModalController, MenuController } from 'ionic-angular';

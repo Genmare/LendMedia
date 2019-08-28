@@ -1,7 +1,7 @@
-import { MediaService } from './../../services/media.service';
+import { MediaService } from '../../../services/media.service';
 import { Component, OnInit } from '@angular/core';
 import { NavParams, ViewController } from 'ionic-angular';
-import { Cd } from '../../models/cd';
+import { Cd } from '../../../models/cd';
 
 @Component({
   selector: 'page-lend-cd',

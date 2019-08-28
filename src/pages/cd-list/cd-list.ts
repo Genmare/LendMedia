@@ -1,4 +1,4 @@
-import { LendCdPage } from './../lend-cd/lend-cd';
+import { LendCdPage } from './lend-cd/lend-cd';
 import { Cd } from './../../models/cd';
 import { Component } from '@angular/core';
 import { ModalController, MenuController } from 'ionic-angular';

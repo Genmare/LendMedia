@@ -29,7 +29,7 @@ export class MyApp {
       statusBar.styleDefault();
       splashScreen.hide();
       let firebaseConfig = {
-        apiKey: "AIzaSyBVoGpgcghKQf0UZuDyseik-pM88OaCUkQ",
+        apiKey: "",
         authDomain: "lend-media-e9ad3.firebaseapp.com",
         databaseURL: "https://lend-media-e9ad3.firebaseio.com",
         projectId: "lend-media-e9ad3",
